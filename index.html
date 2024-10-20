@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form class="signup-form" id="sign-up-form">
+            <h2>Create Account</h2>
+            <div class="form-group">
+                <label for="first-name">First Name: </label>
+                <input type="text" id="first-name" placeholder="Enter your first name">
+                <p id="fname-error"></p>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name: </label>
+                <input type="text" id="last-name" placeholder="Enter your last name">
+                <p id="lname-error"></p>
+            </div>
+            <div class="form-group">
+                <label for="username">Username: </label>
+                <input type="text" id="username" placeholder="Enter your username">
+                <p id="username-error"></p>
+            </div>
+            <div class="form-group">
+                <label for="email">Email: </label>
+                <input type="email" id="email" placeholder="Enter your email">
+                <p id="email-error"></p>
+            </div>
+            <div class="form-group">
+                <label for="password">Password: </label>
+                <input type="password" id="password" placeholder="Create a password">
+                <p id="password-error"></p>
+                <label>
+                    <input type="checkbox" id="show-password"> Show Password
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="cnfrm-password">Confirm Password: </label>
+                <input type="password" id="cnfrm-password" placeholder="Re-enter Password" >
+                <p id="cnfrmpassword-error"></p>
+            </div>
+            <button type="submit">Sign Up</button>
+            <!-- <p class="form-footer">Already have an account? <a href="#">Login</a></p> -->
+        </form>
+    </div>
+    <script  src="script.js"></script>
+</body>
+</html>
